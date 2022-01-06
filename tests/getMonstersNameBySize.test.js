@@ -1,6 +1,6 @@
 const getMonstersNameBySize = require('../src/getMonstersNameBySize');
 
-describe('2 - Crie um mapeamento por tamanho dos monstros', () => {
+describe('Crie um mapeamento por tamanho dos monstros', () => {
   it('retorna os nomes dos monstros categorizados por tamanho', () => {
     const actual = getMonstersNameBySize();
 

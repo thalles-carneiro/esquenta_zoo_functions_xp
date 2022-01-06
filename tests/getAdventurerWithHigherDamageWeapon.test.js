@@ -1,6 +1,6 @@
 const getAdventurerWithHigherDamageWeapon = require('../src/getAdventurerWithHigherDamageWeapon');
 
-describe('1 - Crie uma função que busca a arma com maior dano que o aventureiro de maior level possui', () => {
+describe('Crie uma função que busca a arma com maior dano que o aventureiro de maior level possui', () => {
   it('encontra a arma com maior dano da pessoa aventureira de maior level, e retorna o objeto contendo as informações da arma', () => {
     const actual = getAdventurerWithHigherDamageWeapon();
 

@@ -1,6 +1,6 @@
 const countMonstersDefeated = require('../src/countMonstersDefeated');
 
-describe('4 - Crie uma função que realiza a contagem dos monstros derrotados', () => {
+describe('Crie uma função que realiza a contagem dos monstros derrotados', () => {
   it('sem parâmetros, retorna os tipos de monstros e quantos já foram derrotados pelos aventureiros', () => {
     const actual = countMonstersDefeated();
 

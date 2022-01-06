@@ -1,6 +1,6 @@
 const getAdventurerHistory = require('../src/getAdventurerHistory');
 
-describe('1 - Crie uma função que retorna as informações sobre um aventureiro', () => {
+describe('Crie uma função que retorna as informações sobre um aventureiro', () => {
   it('Passado o Id de um aventureiro, retorne as informações no formato correto', () => {
     const actual = getAdventurerHistory("b0dc644a-5335-489b-8a2c-4e086c7819a2");
     const adventurer = {

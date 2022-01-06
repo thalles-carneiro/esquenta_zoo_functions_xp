@@ -1,6 +1,6 @@
 const getMonsterByStats = require('../src/getMonstersByStats');
 
-describe('1 - Crie uma função que retorna uma lista de monstros que possuem o status dado', () => {
+describe('Crie uma função que retorna uma lista de monstros que possuem o status dado', () => {
   it('Dado 20 de strength, testa se o retorno é o esperado', () => {
     const actual = getMonsterByStats(strength, 20);
 

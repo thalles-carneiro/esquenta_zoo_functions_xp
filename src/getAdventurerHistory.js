@@ -7,7 +7,7 @@ const data = require('../data/api_data');
   seguindo este formato [adventurer, weapon, monstersDefeated:[]]
 */
 
-function getAdventurerHistory(adventurer) {
+function getAdventurerHistory(adventurerId) {
   // escreva o código aqui
 }
 
