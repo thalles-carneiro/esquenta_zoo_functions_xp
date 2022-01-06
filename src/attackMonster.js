@@ -5,7 +5,7 @@ const data = require('../data/api_data');
   "Fulano, nivel X atacou o monstro Fuleco de tamanho Gigante dando X dano"
 */
 
-function attackMonster(adventurer, monster, weapon) {
+function attackMonster(adventurer, monster) {
   // escreva o código aqui
 }
 
