@@ -1,4 +1,4 @@
-const data = require('../data/api_data');
+const { weapons } = require('../data/api_data');
 
 /*
   Desenvolva uma função que retorne o aventureiro com a arma de maior dano,
@@ -18,7 +18,7 @@ const data = require('../data/api_data');
 */
 
 function getAdventurerWithHigherDamageWeapon() {
-  // escreva o código aqui
+  return weapons.reduce((acc, obj) => (acc.damage < obj.damage ? obj : acc));
 }
 
 module.exports = getAdventurerWithHigherDamageWeapon;

@@ -1,4 +1,4 @@
-const data = require('../data/api_data');
+const { monsters } = require('../data/api_data');
 
 /*
   Desenvolva uma função que categorize os monstros por tamanho,
@@ -11,8 +11,8 @@ const data = require('../data/api_data');
   }
 */
 
-function getMonstersNameBySize() {
-  // escreva o código aqui
-}
+const getMonstersNameBySize = () =>
+  monsters.reduce((acc, { name, size }) =>
+    ({ ...acc, [size]: [...acc[size] || '', name] }), {});
 
 module.exports = getMonstersNameBySize;
